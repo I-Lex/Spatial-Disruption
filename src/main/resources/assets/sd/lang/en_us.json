@@ -1,0 +1,8 @@
+{
+  "item.sd.upgrade_module": "Upgrade Module",
+  "block.sd.phased_matter": "Phased Matter",
+  "block.sd.perm_phased_matter": "Permanent Phased Matter",
+  "block.sd.spawn_setter": "Spawn Setter",
+
+  "itemGroup.SD": "Spatial Disruption"
+}
