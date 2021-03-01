@@ -15,6 +15,7 @@ import net.minecraftforge.fml.RegistryObject;
 import java.util.function.Supplier;
 
 public class BlocksSD {
+    //Blocks here:
     public static final RegistryObject<Block> PERMANENT_PHASED_MATTER = register("perm_phased_matter", () ->
             new Block(AbstractBlock.Properties.create(Material.BARRIER).doesNotBlockMovement().hardnessAndResistance(-1, 3600000).sound(SoundType.SHROOMLIGHT)));
     public static final RegistryObject<Block> PHASED_MATTER = register("phased_matter", PhasedMatterBlock::new);

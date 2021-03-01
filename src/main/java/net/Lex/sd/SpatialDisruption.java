@@ -22,11 +22,10 @@ import net.Lex.sd.data.client.provider.ItemGroupSD;
 public class SpatialDisruption
 {
     public static final String MOD_ID = "sd";
-    // Directly reference a log4j logger.
-    private static final Logger LOGGER = LogManager.getLogger();
-
     public static final ItemGroupSD SD = new ItemGroupSD();
 
+    // Directly reference a log4j logger.
+    private static final Logger LOGGER = LogManager.getLogger();
     public SpatialDisruption() {
         Registration.register();
 
